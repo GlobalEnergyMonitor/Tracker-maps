@@ -31,19 +31,19 @@ var config = {
     capacityLabel: 'Capacity (MW)',
     assetFullLabel: 'Wind Farm Phases',
     assetLabel: 'phases',
-    nameField: 'project',
+    nameField: 'Project Name',
     tableHeaders: {
-        values: ['url','project','unit','project_local','type','capacity','status', 'start_year', 'operator', 'owner', 'country'],
+        values: ['url','Project Name','unit','project_local','type','capacity','status', 'start_year', 'operator', 'owner', 'country'],
         labels: ['url', 'Project Name','Phase name','Project Name in Local Language / Script','Installation Type','Capacity (MW)' ,'Status','Start Year','Operator', 'Owner','Country'],
         clickColumn: 'url'
     },
-    searchFields: { 'Project': ['project'], 
+    searchFields: { 'Project': ['Project Name'], 
         'Companies': ['owner', 'operator'],
         'Start Year': ['start_year']
     },
-    img_detail_zoom: 13,
+    img_detail_zoom: 14,
     detailView: {
-        'project': {'display': 'heading'},
+        'Project Name': {'display': 'heading'},
         'project_local': {},
         'owner': {'label': 'Owner'},
         'operator': {'label': 'Operator'},
