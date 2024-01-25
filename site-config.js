@@ -1,9 +1,9 @@
 var site_config = {
     /* Mapbox Access Token */
-    accessToken: 'pk.eyJ1IjoiZWFydGhyaXNlIiwiYSI6ImNsa2d4eGhvaTAxb3gzcHAyem5weDY5bGgifQ.dir6j-9L6fv7Q9g_DwT51w',
+    accessToken: 'pk.eyJ1IjoiZ2VtdGVhbTEiLCJhIjoiY2xtbm90dThtMDB2azJrbnhuZ2JhbGZ4NCJ9.eBYvRjhtNJYgZDXQymTmlQ',
 
     /* Mapbox Base Map Style */
-    mapStyle: 'mapbox://styles/earthrise/clit4wm0101wk01pd1nm7gmro/',
+    mapStyle: 'mapbox://styles/gemteam1/clmi71nwz03zm01qr7l04gcu2',
 
     /* Zoom level that asset detail cards open at; this is a good one to override in tracker config,
      depending on scale of facilities */
